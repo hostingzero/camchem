@@ -1,0 +1,7 @@
+Warning: stripos(): needle is not a string or an integer in /home/customer/www/camachem.com/public_html/pub/get.php on line 22
+#0 [internal function]: Magento\Framework\App\ErrorHandler->handler(2, 'stripos(): need...', '/home/customer/...', 22, Array)
+#1 /home/customer/www/camachem.com/public_html/pub/get.php(22): stripos('media/captcha/b...', Array)
+#2 /home/customer/www/camachem.com/public_html/vendor/magento/module-media-storage/App/Media.php(152): {closure}('media/captcha/b...', Array)
+#3 /home/customer/www/camachem.com/public_html/vendor/magento/framework/App/Bootstrap.php(261): Magento\MediaStorage\App\Media->launch()
+#4 /home/customer/www/camachem.com/public_html/pub/get.php(84): Magento\Framework\App\Bootstrap->run(Object(Magento\MediaStorage\App\Media))
+#5 {main}
