@@ -17012,12 +17012,12 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
 }
 
 @font-face {
-  font-family: 'Montserrat-Light';
-  src: 	url('../../frontend/Smartwave/porto_child/id_ID/fonts/Montserrat-Lightd41d.eot?#iefix') format('embedded-opentype'),  
-		url('../../frontend/Smartwave/porto_child/id_ID/fonts/Montserrat-Light.otf')  format('opentype'),
-	     url('../../frontend/Smartwave/porto_child/id_ID/fonts/Montserrat-Light.woff') format('woff'), 
-		 url('../../frontend/Smartwave/porto_child/id_ID/fonts/Montserrat-Light.ttf')  format('truetype'), 
-		 url('../../frontend/Smartwave/porto_child/id_ID/fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
+  font-family: 'Poppins';
+  src: 	url('../../frontend/Smartwave/porto_child/id_ID/fonts/Poppinsd41d.eot?#iefix') format('embedded-opentype'),  
+		url('../../frontend/Smartwave/porto_child/id_ID/fonts/Poppins.otf')  format('opentype'),
+	     url('../../frontend/Smartwave/porto_child/id_ID/fonts/Poppins.woff') format('woff'), 
+		 url('../../frontend/Smartwave/porto_child/id_ID/fonts/Poppins.ttf')  format('truetype'), 
+		 url('../../frontend/Smartwave/porto_child/id_ID/fonts/Poppins.svg#Poppins') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -17066,7 +17066,7 @@ display: none;
   }
 
   body, footer .footer-middle {
-	  font-family: 'Montserrat-Light', sans-serif;
+	  font-family: 'Poppins', sans-serif;
   }
   .fa {
 	font-weight:normal;
@@ -17579,7 +17579,7 @@ form#newsletter-validate-detail {
     height: 100% !important;
     background-color: #f2941e;
     color: #ffffff;
-    font-family: Montserrat-Light;
+    font-family: Poppins;
     line-height: normal !important;
     text-align: center;
     border: 1px solid #f2941e;
@@ -18189,7 +18189,7 @@ b, strong {
     padding: 6px 12px !important;
     font-size: 14px !important;
     text-transform: CAPITALIZE;
-    font-family: 'Montserrat-Light', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .catalog-product-view .product.data.items > .item.title.active > .switch,.catalog-product-view  .product.data.items > .item.title.active > .switch:focus, .product.data.items > .item.title.active > .switch:hover {
     border-color: #f2941d !important;
@@ -18243,7 +18243,7 @@ b, strong {
     font-size: 17px !important; 
     font-weight: bold !important;
     color: #000;
-    font-family: 'Montserrat-Light', sans-serif !important;
+    font-family: 'Poppins', sans-serif !important;
     line-height: 23px;
 } 
 .catalog-product-view  .box-tocart .action.tocart:before {
@@ -18318,7 +18318,7 @@ b, strong {
     width: 100%;
     max-width: none;
 }
-.contact.form textarea#comment, .contact.form input {width: 100%;padding: 16px 16px 16px 65px;font-size: 17px;height: 100%;border: 1px solid #484747;border-left: none;background: #ffffff;background-size: auto;background-position: 15px 20px;color: #484747;background-repeat: no-repeat;font-family: 'Montserrat-Light', sans-serif;}
+.contact.form textarea#comment, .contact.form input {width: 100%;padding: 16px 16px 16px 65px;font-size: 17px;height: 100%;border: 1px solid #484747;border-left: none;background: #ffffff;background-size: auto;background-position: 15px 20px;color: #484747;background-repeat: no-repeat;font-family: 'Poppins', sans-serif;}
 .contact.form .name {
     background-image: url(../../../../media/images/user.png) !important;
 }
