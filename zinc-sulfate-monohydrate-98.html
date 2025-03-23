@@ -105,26 +105,7 @@ body {
 }
 </style>
 
-<script type="text/javascript">
-var $zoho = $zoho || {};
-$zoho.salesiq = $zoho.salesiq || { widgetcode: "8e0c7efbafe56f9c67b8f2acc9c2d6c627bd3f820b7f91d2ccd08ce901ab82d3", values: {}, ready: function() {} };
-var d = document; s = d.createElement("script"); s.type = "text/javascript"; s.id = "zsiqscript"; s.defer = true; s.src = "https://salesiq.zoho.eu/widget";
-t = d.getElementsByTagName("script")[0]; t.parentNode.insertBefore(s, t); d.write("<div id='zsiqwidget'></div>");
 
-window.getCookie = function(name) {
-    var match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
-    if (match) return decodeURIComponent(match[2]).replace(/\+/g, " ");
-}
-
-$zoho.salesiq.ready = function() {
-    customer_email = window.getCookie("zoho_user_email");
-    customer_name = window.getCookie("zoho_user_name");
-    if (customer_email) {
-        $zoho.salesiq.visitor.email(customer_email);
-        $zoho.salesiq.visitor.name(customer_name);
-    }
-}
-</script>
 
 <meta name="google-site-verification" content="XBVPNuyzhcZ_pG661_CffHHg130uaNeaLzEaoojplBo" />
 
@@ -1014,62 +995,7 @@ require([
 
         </header>
 
-<div id="popup-modal" class="" style="display: none">
 
-    <form id="contact-inqury-form" class="contact-inqury-form wmPrmr_quoteForm" method="post" action="https://camachem.com/en/custom/send/quotesend"  onSubmit="return checkCaptcha() ;">
-
-        <!-- <div class="form-field col-md-6">
-        <label>I would like to discuss<span class="required">*</span></label>
-        <div class="input-box">
-        <select id="wm_sampleRequestCat" name="brand" class="required-entry validate-select">
-        <option disabled selected>Select Chemical</option>
-        <option value="Mining_Chemicals">Mining Chemicals</option>
-        <option value="Industrial_Chemicals">Industrial Chemicals</option>
-        <option value="Specialized_Chemicals">Specialized Chemicals</option>
-        <option value="Water_Treatment_Chemicals">Water Treatment Chemicals</option>
-        <option value="Other_Chemicals">Other Chemicals</option>            
-        </select>
-        </div>
-        </div>-->
-        <div class="form-field">
-            <label>Full Name<span class="required">*</span></label>
-            <div class="input-box">
-                <input type="text" name="name" class="required-entry" required>
-            </div>
-        </div>
-        <div class="form-field ">
-            <label>Email<span class="required">*</span></label>
-            <div class="input-box">
-                <input type="email" name="email" class="required-entry input-text validate-email" required> 
-            </div>
-        </div>
-        <div class="form-field">
-            <label>Phone Number<span class="required">*</span></label>
-            <div class="input-box">
-                <input type="text" name="number" class="required-entry validate-number" required>
-            </div>
-        </div>  
-        <div class="form-field full-width">
-            <label>Please tell us the chemical you are looking for (include name and %).</label>
-            <div class="input-box">
-                <textarea name="comment" placeholder="Enter your comment here..."></textarea>
-            </div>
-        </div>
-
-        <div class="form-field full-width">  
-            <div class="g-recaptcha required" id="recaptcha"
-                data-sitekey="6LfJAFAbAAAAAOy_HvXLSnWJ_NW1rw3IlzujygMv">
-            </div>
-            <div style="display:none" id="error-msg">
-                <span>This is a required field.</span>
-            </div>
-        </div>
-
-        <div class="form-field full-width">
-            <button id="wm_sampleRequestCatN" type="submit" class="btn btn-default">Submit</button>
-        </div>
-    </form>
-</div>
 <script>
     function checkCaptcha() {
         if ((jQuery('#g-recaptcha-response').val()) === '') {
@@ -1646,7 +1572,7 @@ At Camachem, we have Zinc Sulfate Monohydratefor sale as well as other flotation
                                         <span>Specification</span>
                                     </a>
                                 </div>
-                                <div class="data item content" id="custom-1" data-role="content">
+                                <div  class="data item content" id="custom-1" data-role="content">
                                     <table cellspacing="0" cellpadding="0" bordercolor="#000000" border="1">
 	<tbody>
 		<tr>
@@ -1755,7 +1681,7 @@ At Camachem, we have Zinc Sulfate Monohydratefor sale as well as other flotation
     <fieldset class="fieldset review-fieldset" data-hasrequired="&#x2A;&#x20;Required&#x20;Fields">
         <legend class="legend review-legend"><span>You&#039;re reviewing:</span><strong>Zinc Sulfate Monohydrate 98%</strong></legend><br />
                 <span id="input-message-box"></span>
-        <fieldset class="field required review-field-ratings">
+        <fieldset class="field required review-field-ratings" style="display:none">
             <legend class="label"><span>Your Rating</span></legend><br/>
             <div class="control">
                 <div class="nested" id="product-review-table">
@@ -2070,7 +1996,7 @@ At Camachem, we have Zinc Sulfate Monohydratefor sale as well as other flotation
         
         
                             
-<div class="downloads-item">
+<div style="display:none" class="downloads-item">
     <div class="item-icon"><img src="pub/static/version1731496898/frontend/Smartwave/porto_child/en_US/MageWorx_Downloads/images/filetypes/pdf.html" alt="pdf"/></div>
     <div class="item-link">
                     <b>Zinc Sulfate Monohydrate 98% COA TDS</b><span>*</span>
@@ -2083,7 +2009,7 @@ At Camachem, we have Zinc Sulfate Monohydratefor sale as well as other flotation
     </div>
 
                             
-<div class="downloads-item">
+<div style="display:none" class="downloads-item">
     <div class="item-icon"><img src="pub/static/version1731496898/frontend/Smartwave/porto_child/en_US/MageWorx_Downloads/images/filetypes/pdf.html" alt="pdf"/></div>
     <div class="item-link">
                     <b>Zinc Sulfate Monohydrate 98% SDS MSDS</b><span>*</span>
@@ -2096,7 +2022,7 @@ At Camachem, we have Zinc Sulfate Monohydratefor sale as well as other flotation
     </div>
 
             
-                            <div class="access-notice">
+                            <div style="display:none"  class="access-notice">
                 <span>* You have to <a href="en/customer/account/login/referer/aHR0cHM6Ly9jYW1hY2hlbS5jb20vZW4vemluYy1zdWxmYXRlLW1vbm9oeWRyYXRlLTk4Lmh0bWw%2c/index.html">Login</a> or <a href="en/customer/account/create/index.html">Register</a> to download this file.</span>
             </div>
             </div>
