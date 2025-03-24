@@ -14110,7 +14110,7 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
     display: block;
   }
   .navigation {
-    background: transparent;
+        background: #f2941e !important;
     box-sizing: border-box;
   }
   .navigation ul {
@@ -14419,17 +14419,16 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
   }
   .sw-megamenu.navigation li.ui-menu-item > a {
     position: relative;
-  }
-  .sw-megamenu.navigation li.ui-menu-item > .open-children-toggle {
-    display: block;
-    position: absolute;
-    width: 42px;
-    height: 42px;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    cursor: pointer;
-  }
+  }    .sw-megamenu.navigation li.ui-menu-item > .open-children-toggle {
+        display: block;
+        position: absolute;
+        width: 80px;
+        height: 104px;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        cursor: pointer;
+    }
   .sw-megamenu.navigation span.cat-label {
     top: 50%;
     right: 36px;
@@ -17058,7 +17057,7 @@ display: none;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    font-family:  ProximaNova-Bold;
+    font-family: Poppins;
 }
 
    b, strong, h1, h2, h3, h4, h5, h6 {
