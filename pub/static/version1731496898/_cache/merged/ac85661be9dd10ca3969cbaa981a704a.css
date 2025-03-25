@@ -14419,17 +14419,16 @@ fieldset[disabled] .sidebar .block-addbysku .action.remove {
   }
   .sw-megamenu.navigation li.ui-menu-item > a {
     position: relative;
-  }
-  .sw-megamenu.navigation li.ui-menu-item > .open-children-toggle {
-    display: block;
-    position: absolute;
-    width: 42px;
-    height: 42px;
-    right: 0;
-    top: 0;
-    z-index: 1;
-    cursor: pointer;
-  }
+  }    .sw-megamenu.navigation li.ui-menu-item > .open-children-toggle {
+        display: block;
+        position: absolute;
+        width: 80px;
+        height: 104px;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        cursor: pointer;
+    }
   .sw-megamenu.navigation span.cat-label {
     top: 50%;
     right: 36px;
@@ -17058,11 +17057,11 @@ display: none;
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
-    font-family:  ProximaNova-Bold;
+    font-family: Poppins;
 }
 
    b, strong, h1, h2, h3, h4, h5, h6 {
-      font-family: Montserrat-SemiBold !important;
+      font-family: Quicksand-SemiBold !important;
   }
 
   body, footer .footer-middle {
@@ -18030,7 +18029,7 @@ b, strong {
     margin-bottom: 8px;
     display: block;
     text-transform: capitalize;
-    font-family: Montserrat-SemiBold !important;
+    font-family: Quicksand-SemiBold !important;
     color: #333;
     font-weight: 400;
 }
@@ -18176,7 +18175,7 @@ b, strong {
     font-weight: 700;
     color: #000;
     text-shadow: none;
-    font-family: Montserrat-SemiBold !important;
+    font-family: Quicksand-SemiBold !important;
 }
 
 .catalog-product-view .product-info-main .product-info-price {
@@ -18279,7 +18278,7 @@ b, strong {
 .contact-index-index .fieldset>.legend, .contact-index-index .contacts-title {
     color: #0a131d !important;
     font-size: 30px !important;
-    font-family: Montserrat-SemiBold !important;
+    font-family: Quicksand-SemiBold !important;
     font-weight: normal !important;
     margin-bottom: 20px !important;
 }

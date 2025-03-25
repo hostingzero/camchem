@@ -1669,7 +1669,7 @@ p.short-des {
     z-index: 5;
   }
   .navigation {
-    background: transparent;
+        background: #f2941e !important;
     font-size: 12px;
     font-weight: 700;
     height: inherit;
